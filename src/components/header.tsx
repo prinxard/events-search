@@ -21,9 +21,9 @@ export default function Header() {
   const activePathname = usePathname();
 
   return (
-    <header className="flex items-center justify-between border-b border-white/10 h-14 px-3 sm:px-9">
-      <Logo />
-
+    <header className="flex items-center bg-cyan-800 rounded-full justify-between border-b border-white/10 h-14 px-3 sm:px-9">
+      {/* <Logo /> */}
+      <h1 className="font-bold text text-2xl lg:text-3xl">EventHopper</h1>
       <nav className="h-full">
         <ul className="flex gap-x-6 h-full text-sm">
           {routes.map((route) => (

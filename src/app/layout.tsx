@@ -8,8 +8,8 @@ import Container from "@/components/container";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Evento - Find events around you",
-  description: "Browse more than 10,000 events worldwide",
+  title: "EventHopper - Find events around you",
+  description: "Browse more than 10,000 events in Nigeria",
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-gray-950 text-white overflow-y-scroll`}
+        className={`${inter.className} bg-cyan-900 text-white overflow-y-scroll`}
       >
         <Container>
           <Header />
